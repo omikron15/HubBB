@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B&B Registration Page</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+</head>
+
+<header>
+
+    <nav>
+
+        <ul>
+            <li><a href="Home.html">Home page</a></li>
+            <li><a href="Bookings.php">Bookings</a></li>
+            <li><a href="OwnerRegistration.html">Owner Registration</a></li>
+            <li><a href="B&Bregistration.html">B&B Registration</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<body>
+
+<main>
+
+    <form>
+
+        <table>
+            <tr><td> <p>Please complete the form:</p></td></tr>
+
+
+            <tr>
+                <td><label for="bbname">B&B Name:</label></td>
+                <td><input type="text" name="bbname" value="Enter your B&B Name" required /></td>
+            </tr>
+            <tr><td>
+                <label for="address">Address:</label></td>
+                <td><input type="text" name="address" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
+            </tr>
+
+            <tr><td>
+                <label for="address2">Address Line 2:</label></td>
+                <td><input type="text" name="address2" placeholder=" Enter second line of your address" size="30" maxlength="50" required /></td>
+            </tr>
+
+            <tr><td>
+                <label for="city">City:</label></td>
+                <td><input type="text" name="city" placeholder="Enter City" size="30" maxlength="50" required /></td>
+            </tr>
+
+
+            <tr><td>
+                <label for="telephone">Telephone:</label></td>
+                <td><input type="text" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label></td>
+                <td><input type="text" name="email" placeholder="email" size="30" maxlength="50" required /></td>
+            </tr>
+
+
+
+
+            <tr><td>
+                <label for="bbdescription">B&B Description:</label></td>
+                <td><input type="text" name="bbdescription" placeholder=" Enter a description of your B&B" size="30" maxlength="50" required /></td>
+            </tr>
+
+            <tr><td>
+                <label for="roomdescription">Room Description:</label></td>
+                <td><input type="text" name="roomdescription" placeholder=" Enter a description of your rooms" size="30" maxlength="50" required /></td>
+            </tr>
+            <tr><td>
+                <label for="price">Price:</label></td>
+                <td><input type="text" name="price" placeholder="Enter the price per night" required /></td>
+            </tr>
+            <tr><td>
+                <label for="check-in">Check-in time:</label></td>
+                <td><input type="text" name="check-in" placeholder="Enter the check-in time" required /></td>
+            </tr>
+
+            <tr><td>
+                <label for="check-out">Check-out time:</label></td>
+                <td><input type="text" name="check-out" placeholder="Enter the check-out time" required /></td>
+            </tr>
+
+            <tr><td>
+                <label for="picture">Upload a picture:</label></td>
+                <td><input type="text" name="picture" required /></td>
+            </tr>
+
+            <tr><td>
+                <label for="pets">Pets Allowed:</label></td>
+                <td><select name="title">
+                    <option value="">Select Yes or No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table></form>
+
+</main>
+
+<footer>
+
+    <p>Copyright. Team D Solutions.</p>
+</footer>
+
+</body>
+</html>
